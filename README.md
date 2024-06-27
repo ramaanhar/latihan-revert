@@ -10,3 +10,4 @@ Ini latihan buat revert di Git. Setiap ada perubahan di file ini bakal nambah 1 
 6. Tapi, saya bikin kesalahan. Saya udah ubah sesuatu di branch `development` tapi saya langsung PR ke `master` tanpa lewat `uat`. Jadinya, habis itu saya PR juga dari `development` ke `uat`. 
 7. Sejak saat itu, setiap saya merubah file di `development`, saya PR dari `development` ke `uat`, lalu PR lagi dari `development` ke `master`.
 8. Jujur, pengennya alur PR balik lagi kayak normal. Coba di cek perbedaan filenya dari `uat` ke `master`. Kalo ada yang aneh dan kalo bisa, dari `master` coba revert ke commit yang isinya baris terakhir itu baris ke-5.
+9. Tes ya, ternyata masih belum bisa ges...
